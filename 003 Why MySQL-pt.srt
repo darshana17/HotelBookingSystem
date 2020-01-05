@@ -1,0 +1,111 @@
+1
+00:00:00,720 --> 00:00:07,440
+OK então. si mesmo: Ótimo Deixe-me instalar um software contendo SQL e iniciar o curso. Infelizmente, não é tão simples. Por quê? Para implementar comandos SQL, você precisará de um sistema de gerenciamento de banco de dados, geralmente
+
+2
+00:00:07,440 --> 00:00:08,780
+chamado de banco de dados ou plataforma.
+
+3
+00:00:08,790 --> 00:00:14,220
+O problema é que existem alguns bancos de dados populares, todos baseados no SQL. Eles suportam várias formas
+
+4
+00:00:14,220 --> 00:00:18,990
+do idioma original e existem apenas pequenas diferenças entre versões diferentes.
+
+5
+00:00:18,990 --> 00:00:25,350
+Como desenvolvedor, você quer aprender como usar o que é mais adequado à sua situação.
+
+6
+00:00:25,380 --> 00:00:30,920
+Vamos basear nosso curso inteiramente no MySQL, mas você
+
+7
+00:00:30,960 --> 00:00:36,540
+deve saber que existem outras plataformas como Oracle, SQLite,
+
+8
+00:00:36,570 --> 00:00:39,440
+Microsoft SQL Server, postscripts sequel.
+
+9
+00:00:39,510 --> 00:00:45,150
+Maria DB, Microsoft Access e assim por diante.
+
+10
+00:00:45,390 --> 00:00:46,450
+As pequenas diferenças entre as versões da linguagem
+
+11
+00:00:46,500 --> 00:00:50,090
+SQL significam que a transferência de um banco de dados para outro (o que geralmente acontece se você mudar de emprego) não seria um obstáculo para você.
+
+12
+00:00:50,280 --> 00:00:55,050
+Se você é um usuário de outra plataforma, você ainda pode fazer este curso e aplicar facilmente as ferramentas que ensinamos.
+
+13
+00:00:55,050 --> 00:01:00,150
+Então, por que escolhemos o MySQL? Porque é de fonte madura e aberta confiável.
+
+14
+00:01:00,420 --> 00:01:06,270
+O último significa que é grátis.
+
+15
+00:01:06,270 --> 00:01:13,070
+É usado por muitas instituições e empresas, incluindo Facebook YouTube, Dropbox, Twitter, Pinterest, Booking. com e
+
+16
+00:01:13,080 --> 00:01:14,760
+LinkedIn.
+
+17
+00:01:14,790 --> 00:01:21,370
+Considerando o renomado Ranking DB-Engines, o MySQL vem como o primeiro sistema de
+
+18
+00:01:21,420 --> 00:01:23,760
+gerenciamento de banco de dados relacional de código aberto. Sim, a Oracle está no
+
+19
+00:01:24,060 --> 00:01:30,300
+topo com apenas uma ligeira vantagem, mas não se esqueça que é um
+
+20
+00:01:30,300 --> 00:01:32,850
+software pago!
+
+21
+00:01:32,910 --> 00:01:35,840
+Portanto, com o objetivo de fornecer
+
+22
+00:01:35,880 --> 00:01:39,310
+a melhor experiência possível, escolhemos o MySQL.
+
+23
+00:01:39,660 --> 00:01:43,320
+Agora vamos nos aprofundar em algumas teorias de banco de dados e SQL.
+
+24
+00:01:43,380 --> 00:01:45,670
+Isso fornecerá o conjunto de ferramentas necessárias quando
+
+25
+00:01:45,720 --> 00:01:49,200
+lidamos com várias tarefas SQL nas lições que estão por vir.
+
+26
+00:01:49,200 --> 00:01:54,210
+Obrigado por assistir!
+
+27
+00:01:54,210 --> 00:01:55,350
+Neste ponto, você pode
+
+28
+00:01:55,350 --> 00:01:56,260
+estar dizendo a

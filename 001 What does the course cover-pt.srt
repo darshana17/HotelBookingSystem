@@ -1,0 +1,250 @@
+1
+00:00:00,910 --> 00:00:08,030
+Olá e bem vindo ao nosso curso de SQL! Eu sou Martin e sou um programador que passou um tempo significativo
+
+2
+00:00:08,030 --> 00:00:10,290
+trabalhando com SQL e bancos de dados.
+
+3
+00:00:10,460 --> 00:00:15,020
+Tenho o prazer de apresentar um curso que se destaca dos demais cursos de
+
+4
+00:00:15,020 --> 00:00:16,900
+SQL disponíveis na Udemy e online.
+
+5
+00:00:17,180 --> 00:00:22,190
+Este curso é diferente, porque não repetiremos tudo escrito em um dos livros
+
+6
+00:00:22,190 --> 00:00:24,770
+sobre SQL e bancos de dados relacionais.
+
+7
+00:00:24,770 --> 00:00:30,110
+Em vez disso, fornecerei o conjunto de ferramentas práticas de SQL que você precisará no seu local de trabalho.
+
+8
+00:00:30,200 --> 00:00:31,670
+Nenhum conceito inútil.
+
+9
+00:00:31,700 --> 00:00:35,200
+Tudo é direto ao ponto e fácil de entender.
+
+10
+00:00:35,300 --> 00:00:40,820
+O currículo que preparamos para você compreende um conjunto heterogêneo de tópicos que os analistas de
+
+11
+00:00:40,820 --> 00:00:48,260
+dados e gerentes de dados precisam em seu trabalho diário. O SQL permite que esses profissionais manipulem grandes conjuntos de dados.
+
+12
+00:00:48,260 --> 00:00:54,610
+Uma vantagem de usar o SQL é que sua sintaxe é intuitiva, o que predispõe você a aprendê-lo rapidamente.
+
+13
+00:00:54,650 --> 00:00:59,400
+Você primeiro precisará internalizar o significado de alguns termos específicos se quiser entender o
+
+14
+00:00:59,420 --> 00:01:04,850
+amplo escopo de sua aplicação e a facilidade com que essa linguagem pode resolver tarefas sofisticadas.
+
+15
+00:01:04,850 --> 00:01:10,430
+Portanto, na primeira parte deste curso, vamos nos concentrar em explicar bancos de dados, sistemas de gerenciamento
+
+16
+00:01:10,430 --> 00:01:12,490
+de banco de dados e SQL.
+
+17
+00:01:12,710 --> 00:01:16,740
+Organizei os vídeos para que as ideias abstratas sejam fáceis de entender.
+
+18
+00:01:16,970 --> 00:01:23,020
+Não, isso não será um conjunto de conceitos teóricos de SQL que você nunca ouvirá no seu local de trabalho.
+
+19
+00:01:23,270 --> 00:01:29,390
+Este é precisamente o conhecimento que você precisa para entender como trabalhar com dados, tabelas, sistemas de
+
+20
+00:01:29,390 --> 00:01:33,080
+gerenciamento de bancos de dados relacionais e sua representação visual!
+
+21
+00:01:33,080 --> 00:01:35,790
+Antes de começarmos, gostaria de pedir um favor.
+
+22
+00:01:35,840 --> 00:01:38,940
+Não pule nenhuma das palestras na primeira parte!
+
+23
+00:01:39,140 --> 00:01:44,810
+Eu prometo que eles ajudarão você a desenvolver a orientação perfeita e o raciocínio lógico necessários para uma codificação
+
+24
+00:01:44,990 --> 00:01:47,780
+suave e de alta qualidade durante todo o curso.
+
+25
+00:01:47,780 --> 00:01:52,370
+Após a primeira parte, mostraremos como configurar o ambiente de software que você precisará
+
+26
+00:01:52,850 --> 00:01:56,390
+neste curso e poderá arregaçar as mangas e iniciar a programação.
+
+27
+00:01:56,390 --> 00:02:00,450
+A melhor parte é que você não verá apenas como pode trabalhar com um banco de dados existente.
+
+28
+00:02:00,470 --> 00:02:04,850
+Vamos mostrar-lhe como criar uma base de dados totalmente nova a partir do zero!
+
+29
+00:02:04,910 --> 00:02:06,550
+Isso é ótimo, certo?
+
+30
+00:02:06,560 --> 00:02:08,320
+Apenas espere para ouvir o que vem depois disso.
+
+31
+00:02:08,480 --> 00:02:12,380
+Neste curso, trabalharemos com um banco de dados do mundo real do GitHub.
+
+32
+00:02:12,680 --> 00:02:18,660
+É grande o suficiente e lhe dará uma boa idéia de como podemos usar o SQL em situações da vida real.
+
+33
+00:02:18,680 --> 00:02:22,930
+Não é um pequeno conjunto de dados reunidos para um curso para principiantes.
+
+34
+00:02:22,960 --> 00:02:25,550
+Tenho certeza que você apreciará esse aspecto do curso.
+
+35
+00:02:25,570 --> 00:02:29,110
+Acreditamos que este é o caminho certo para aprender também.
+
+36
+00:02:29,140 --> 00:02:34,600
+Então, depois de aprender como configurar um banco de dados por conta própria, você mergulhará no
+
+37
+00:02:34,600 --> 00:02:36,500
+maravilhoso mundo da manipulação de dados.
+
+38
+00:02:36,520 --> 00:02:41,320
+Esta é a seção onde você aprenderá como o SQL pode ser poderoso quando usado para a
+
+39
+00:02:41,320 --> 00:02:44,220
+extração de informações e insights de um banco de dados.
+
+40
+00:02:44,350 --> 00:02:50,060
+Você vai passar por:
+- as instruções SQL clássicas
+- restrições de colunas e tabelas
+- funções.
+
+41
+00:02:50,140 --> 00:02:55,200
+Em seguida, abordaremos tópicos mais sofisticados, como: - junta-se
+
+42
+00:02:55,240 --> 00:03:02,410
+- subconsultas - auto-uniões - visualizações. Finalmente, estaremos prontos para aprender a trabalhar com algumas ferramentas
+
+43
+00:03:02,410 --> 00:03:05,770
+que os profissionais adoram usar: procedimentos e funções armazenados.
+
+44
+00:03:05,770 --> 00:03:10,450
+Concluiremos o curso aprendendo sobre algumas técnicas avançadas de SQL,
+
+45
+00:03:10,450 --> 00:03:12,560
+como gatilhos e índices.
+
+46
+00:03:12,820 --> 00:03:18,790
+Além dos fundamentos, este curso lhe ensinará um sólido conjunto de tópicos úteis, dicas, truques e habilidades
+
+47
+00:03:18,790 --> 00:03:21,850
+afiadas que lhe darão uma vantagem no mercado.
+
+48
+00:03:21,850 --> 00:03:26,730
+Acredito firmemente na afirmação: "a maneira mais eficaz de aprender é fazendo".
+
+49
+00:03:26,890 --> 00:03:32,770
+Isso é válido especialmente para SQL, porque a dificuldade das tarefas com as quais você deve
+
+50
+00:03:32,860 --> 00:03:34,980
+lidar no trabalho requer experiência anterior.
+
+51
+00:03:35,230 --> 00:03:38,760
+Então, por favor, faça os exercícios anexados às palestras!
+
+52
+00:03:38,770 --> 00:03:40,600
+Eles estarão na forma de perguntas
+
+53
+00:03:40,600 --> 00:03:44,030
+de questionário e reforçarão tudo o que você aprendeu nas lições.
+
+54
+00:03:44,230 --> 00:03:48,010
+Se você tiver alguma dúvida, entre em contato e escreva na seção de perguntas e respostas.
+
+55
+00:03:48,040 --> 00:03:51,580
+Teremos prazer em responder em um ou dois dias úteis.
+
+56
+00:03:51,580 --> 00:03:57,240
+Além disso, durante todo o curso e na minha prática, mantenho as melhores práticas e limpei a codificação.
+
+57
+00:03:57,490 --> 00:04:01,270
+Lembre-se de que um código bem organizado ou bom não é aquele
+
+58
+00:04:01,270 --> 00:04:03,050
+que os computadores podem entender.
+
+59
+00:04:03,160 --> 00:04:03,920
+É o o que
+
+60
+00:04:03,950 --> 00:04:06,920
+único que os humanos podem entender. Mergulhe direto e vamos começar esta jornada juntos!
+
+61
+00:04:06,960 --> 00:04:09,030
+Assim. você está esperando?
+
+62
+00:04:09,060 --> 00:04:12,450
+&nbsp;

@@ -1,0 +1,181 @@
+1
+00:00:00,670 --> 00:00:03,130
+Assim. estudar SQL? Por exemplo, você poderia
+
+2
+00:00:03,920 --> 00:00:09,280
+estar trabalhando em Business Intelligence (BI), ciência de dados, administração de banco de dados ou desenvolvimento web de back-end.
+
+3
+00:00:09,560 --> 00:00:15,590
+Qualquer um desses trabalhos está relacionado ao armazenamento de grandes quantidades de dados.
+
+4
+00:00:15,650 --> 00:00:17,870
+Portanto, antes de realizar qualquer análise com os dados, você terá que recuperá-lo.
+
+5
+00:00:17,870 --> 00:00:21,320
+Como consequência, o foco de nosso curso é, principalmente,
+
+6
+00:00:21,350 --> 00:00:26,560
+desenvolver as habilidades necessárias para resolver problemas analíticos de negócios e aplicar soluções
+
+7
+00:00:26,930 --> 00:00:32,120
+em um software que permite extrair as informações desejadas do banco de dados. Para conseguir tudo isso, você precisa de SQL.
+
+8
+00:00:32,120 --> 00:00:37,670
+SQL significa Linguagem de Consulta Estruturada.
+
+9
+00:00:37,670 --> 00:00:42,340
+É uma linguagem de programação projetada especificamente para trabalhar com bancos de dados.
+
+10
+00:00:42,460 --> 00:00:45,350
+Ele permite criar, manipular e compartilhar dados,
+
+11
+00:00:45,350 --> 00:00:49,460
+especialmente dados de sistemas de gerenciamento de banco de dados relacionais.
+
+12
+00:00:49,460 --> 00:00:54,710
+A maneira de dizer ao computador para extrair informações do banco de dados é
+
+13
+00:00:54,710 --> 00:00:56,030
+escrever consultas no SQL. Uma consulta, pronunciada 'query' ou
+
+14
+00:00:56,270 --> 00:01:01,400
+'querry', é um trecho de código que induz o computador a executar uma determinada operação que fornecerá a saída desejada.
+
+15
+00:01:01,400 --> 00:01:06,500
+O último processo é chamado de consulta ao banco de dados. Resumidamente, o SQL é a linguagem que permite
+
+16
+00:01:06,500 --> 00:01:12,110
+escrever consultas que o computador pode executar e, em seguida, fornecer informações do banco de dados em retorno.
+
+17
+00:01:12,110 --> 00:01:18,200
+A coisa boa sobre SQL é uma linguagem intuitiva e fácil de aprender.
+
+18
+00:01:18,200 --> 00:01:23,280
+Tenha cuidado, pois isso não significa usá-lo será
+
+19
+00:01:24,260 --> 00:01:29,200
+uma tarefa simples - de maneira alguma!
+
+20
+00:01:29,210 --> 00:01:32,900
+Às vezes, os problemas de negócios que você deve resolver serão peculiares e envolverão o processamento
+
+21
+00:01:32,900 --> 00:01:34,140
+de grandes quantidades de dados. Apesar de ser
+
+22
+00:01:34,160 --> 00:01:39,380
+relativamente simples em sua estrutura, o SQL pode ser poderoso ao computar tarefas muito complexas.
+
+23
+00:01:39,380 --> 00:01:45,980
+É por isso que neste curso nós fornecemos as habilidades cruas que você precisará para se tornar um programador da
+
+24
+00:01:45,980 --> 00:01:48,560
+Web, um analista de dados, um cientista de dados ou um analista de inteligência de negócios.
+
+25
+00:01:48,560 --> 00:01:54,890
+A ideia é combinar aulas de vídeo e exercícios avançados que mostrarão que o
+
+26
+00:01:54,980 --> 00:01:58,510
+SQL é legal e divertido de se trabalhar!
+
+27
+00:01:58,520 --> 00:02:04,520
+E, se por algum motivo estranho, você ainda estiver se perguntando se o SQL como uma
+
+28
+00:02:04,520 --> 00:02:05,370
+linguagem de
+
+29
+00:02:05,690 --> 00:02:11,360
+programação vale a pena ter no seu conjunto de habilidades, deixe-me mostrar as estatísticas a seguir.
+
+30
+00:02:11,360 --> 00:02:12,900
+Um estudo da Techworm mostra, além da linguagem
+
+31
+00:02:13,070 --> 00:02:15,760
+de programação mais exigida para 2017 (em geral, não em um setor específico).
+
+32
+00:02:15,800 --> 00:02:21,270
+De fato. com compartilhar as mesmas informações para 2016.
+
+33
+00:02:21,470 --> 00:02:24,470
+De fato. com também classifica alto SQL quando relacionado a posições de trabalho lucrativas.
+
+34
+00:02:24,470 --> 00:02:28,610
+É verdade.
+
+35
+00:02:28,640 --> 00:02:34,100
+Às vezes, esses tipos de estudos são realmente tendenciosos.
+
+36
+00:02:34,100 --> 00:02:34,980
+Então, vamos mudar a questão e
+
+37
+00:02:35,300 --> 00:02:38,760
+nos referir a um estudo realizado pelo Stack Overflow, onde perguntaram a mais de 56.000 desenvolvedores em 173 países "Quais são as tecnologias mais utilizadas? "Os três
+
+38
+00:02:38,810 --> 00:02:44,390
+primeiros são: 1 JavaScript - 55. 4%
+2 SQL - 49. 1%
+3 Java -
+
+39
+00:02:44,390 --> 00:02:50,860
+36. 3%.
+
+40
+00:02:51,080 --> 00:03:01,760
+Portanto, o SQL é uma habilidade altamente exigida no mercado de trabalho, não importa como você olhe para ele.
+
+41
+00:03:02,050 --> 00:03:03,920
+Fique atento ao próximo
+
+42
+00:03:04,220 --> 00:03:09,380
+vídeo para entender o que é e por que é o ambiente de software mais adequado para este curso.
+
+43
+00:03:09,380 --> 00:03:14,630
+Obrigado por assistir!
+
+44
+00:03:14,630 --> 00:03:16,190
+Por que
+
+45
+00:03:16,190 --> 00:03:17,120
+Coloque-se no lugar de um funcionário ou gerente de uma empresa que trabalhe com grandes quantidades de dados.

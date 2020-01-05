@@ -1,0 +1,263 @@
+1
+00:00:01,220 --> 00:00:02,120
+¡Todo bien!
+
+2
+00:00:02,120 --> 00:00:03,120
+¡Estupendo!
+
+3
+00:00:03,140 --> 00:00:08,990
+Una cosa que notará al estudiar los lenguajes de programación es que los conceptos que encuentra están interrelacionados.
+
+4
+00:00:08,990 --> 00:00:14,600
+Esto significa que enfocarse en un solo tema difícilmente puede entregar el contenido que debe ser explicado en su totalidad.
+
+5
+00:00:15,110 --> 00:00:18,300
+Para esta historia, SQL no hace excepción.
+
+6
+00:00:18,380 --> 00:00:22,150
+A pesar de eso, debemos comenzar desde algún lugar, ¿verdad?
+
+7
+00:00:22,190 --> 00:00:26,960
+Mi experiencia laboral me dice que será mucho más rápido para aprender y escribir consultas eficientes si
+
+8
+00:00:26,960 --> 00:00:29,900
+pasa por una breve introducción a las bases de datos.
+
+9
+00:00:29,900 --> 00:00:31,640
+Es lo mejor para empezar, así
+
+10
+00:00:31,760 --> 00:00:34,320
+que esto es lo que me gustaría compartir con ustedes.
+
+11
+00:00:34,550 --> 00:00:40,430
+La tabla que ve aquí contiene datos sobre las celdas de los clientes de una tienda de muebles. Y así es como deberíamos leer
+
+12
+00:00:40,430 --> 00:00:42,140
+esta información: la compra
+
+13
+00:00:42,410 --> 00:00:46,840
+número uno se registró el 3 de septiembre de 2016.
+
+14
+00:00:46,910 --> 00:00:54,490
+Luego, el cliente número uno compró el artículo con el código A1. Cada uno de los cuatro elementos tiene un significado específico.
+
+15
+00:00:55,120 --> 00:00:57,620
+Llamaremos a cada uno un valor de datos.
+
+16
+00:00:58,810 --> 00:01:04,200
+Los cuatro valores de datos componen un registro. Un registro es cada entrada que existe en una tabla.
+
+17
+00:01:04,360 --> 00:01:06,810
+Corresponde a una fila de la tabla.
+
+18
+00:01:07,210 --> 00:01:13,330
+Por lo tanto, estos cuatro valores de datos forman un registro, y estos valores de datos con respecto a la
+
+19
+00:01:13,390 --> 00:01:15,060
+compra número dos forman otro registro.
+
+20
+00:01:15,100 --> 00:01:18,730
+Puede usar los términos row y grabar de forma intercambiable.
+
+21
+00:01:18,730 --> 00:01:23,540
+Además de las filas, puede ver que los datos están separados en cuatro columnas o campos.
+
+22
+00:01:23,860 --> 00:01:29,430
+Un campo es una columna en una tabla que contiene información específica sobre cada registro en la tabla.
+
+23
+00:01:29,890 --> 00:01:35,770
+Esto significa que todos los registros en una tabla, independientemente de si son 10, 10000 o 10 millones,
+
+24
+00:01:35,770 --> 00:01:38,210
+tendrán una determinada compra, número de fecha
+
+25
+00:01:38,230 --> 00:01:44,390
+de compra, identificación del cliente e información del artículo. Cuando los datos que tiene están organizados en filas y
+
+26
+00:01:44,390 --> 00:01:50,060
+columnas, esto significa que está tratando con datos tabulares almacenados. Esto es importante de mencionar porque a menudo verá en la literatura que la
+
+27
+00:01:50,060 --> 00:01:56,680
+administración de la base de datos se relaciona con los datos almacenados en forma de tabla. ¡Estupendo!
+
+28
+00:01:56,680 --> 00:01:59,870
+Aquí viene la parte más interesante. En esta tabla, no
+
+29
+00:01:59,890 --> 00:02:03,040
+sabemos nada sobre un cliente además de su identificación.
+
+30
+00:02:03,040 --> 00:02:07,720
+La información sobre los clientes se almacena en otra tabla, llamada 'Clientes'.
+
+31
+00:02:07,720 --> 00:02:13,150
+Hay varios campos, como el nombre y el apellido, la dirección de correo electrónico y la cantidad de veces que
+
+32
+00:02:13,150 --> 00:02:15,670
+los clientes han presentado una queja en nuestra tienda.
+
+33
+00:02:15,670 --> 00:02:18,370
+Entonces, ¿cuál sería la lógica de esa estructura?
+
+34
+00:02:19,170 --> 00:02:24,360
+Cada vez que tenemos un cliente con un número de identificación uno en la tabla de "Ventas",
+
+35
+00:02:24,360 --> 00:02:32,180
+podemos referir al cliente con el número de identificación uno en la tabla "Clientes" y ver su nombre, correo electrónico y número de quejas presentadas.
+
+36
+00:02:32,180 --> 00:02:34,310
+Lo mismo ocurre con la tabla 'Artículos'.
+
+37
+00:02:34,600 --> 00:02:41,120
+Contiene el código del artículo, la descripción del producto, su ID de precio unitario y el nombre de la compañía que lo ha entregado, y el número
+
+38
+00:02:41,120 --> 00:02:44,750
+de teléfono de la sede de la compañía. Aquí, la conexión entre la
+
+39
+00:02:44,780 --> 00:02:50,840
+tabla "Ventas" y la tabla "Artículos" no es la "ID del cliente", sino el "código del elemento".
+
+40
+00:02:52,540 --> 00:02:57,340
+Bueno, podríamos incluir esta información en una sola tabla y se vería así.
+
+41
+00:02:58,010 --> 00:02:58,920
+¡Ay!
+
+42
+00:02:59,030 --> 00:03:00,320
+¡Es enorme!
+
+43
+00:03:00,350 --> 00:03:05,420
+¡No me gustaría imaginar cómo sería la mesa si hubiéramos registrado más de 10 filas!
+
+44
+00:03:05,420 --> 00:03:11,270
+Mi punto es: hay demasiadas columnas, y es difícil entender qué tipo de información está contenida
+
+45
+00:03:11,270 --> 00:03:13,040
+en la tabla más grande.
+
+46
+00:03:13,040 --> 00:03:18,710
+El álgebra relacional nos permite usar la lógica matemática y crear una relación entre unas pocas tablas de
+
+47
+00:03:18,710 --> 00:03:21,710
+una manera que nos permite recuperar datos de manera eficiente.
+
+48
+00:03:22,100 --> 00:03:28,610
+A saber, estas tres tablas - 'Ventas', 'Clientes' y 'Artículos' - se relacionan a través de la ID del cliente o las
+
+49
+00:03:28,610 --> 00:03:35,510
+columnas del 'código del elemento' y forman una base de datos relacional. Y, lo que es más importante, cada uno tiene un significado específico
+
+50
+00:03:35,510 --> 00:03:37,260
+y contiene datos que lo caracterizan.
+
+51
+00:03:37,640 --> 00:03:43,130
+Una de las tablas contiene información sobre ventas, la otra sobre clientes y la
+
+52
+00:03:43,130 --> 00:03:44,530
+tercera sobre los artículos.
+
+53
+00:03:44,640 --> 00:03:45,500
+Para recapitular, recuerde
+
+54
+00:03:45,570 --> 00:03:51,390
+que los valores de los datos en una fila forman un registro en una tabla, y cada columna representa
+
+55
+00:03:51,390 --> 00:03:54,030
+un campo que contiene información específica sobre cada registro.
+
+56
+00:03:54,920 --> 00:04:01,760
+Algunas tablas relacionadas forman una base de datos relacional. Y, para aquellos de ustedes que están interesados ​​en definiciones
+
+57
+00:04:01,760 --> 00:04:07,610
+un poco más técnicas, recuerden que la unidad más pequeña que puede contener un conjunto significativo de
+
+58
+00:04:07,610 --> 00:04:09,230
+datos se llama entidad.
+
+59
+00:04:09,230 --> 00:04:12,960
+Por lo tanto, las filas representan la entidad horizontal en
+
+60
+00:04:13,100 --> 00:04:15,560
+la tabla, las columnas: su entidad vertical.
+
+61
+00:04:15,560 --> 00:04:18,140
+La tabla es una entidad de datos más grande por sí misma.
+
+62
+00:04:18,500 --> 00:04:24,940
+También se lo puede denominar un objeto de base de datos. Una sola fila de una tabla, siendo una sola aparición de esa
+
+63
+00:04:24,940 --> 00:04:34,160
+entidad, también se puede llamar una instancia de entidad. O. ¡Estupendo! Desarrollaremos gradualmente la preparación teórica que
+
+64
+00:04:34,160 --> 00:04:36,410
+necesita antes de comenzar a codificar.
+
+65
+00:04:36,680 --> 00:04:42,680
+Estén atentos para la próxima conferencia, donde verán la función de SQL cuando trabajen con bases de datos relacionales.
+
+66
+00:04:42,680 --> 00:04:43,490
+¡Gracias por ver!
